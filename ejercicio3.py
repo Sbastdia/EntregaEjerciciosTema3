@@ -1,6 +1,6 @@
-def respuestas(numCoorectas, numIncorrectas, numEnBlanco):
+def respuestas(numCorrectas, numIncorrectas, numEnBlanco):
     correcta=3
     incorrecta=-1
     enBlanco=0
-    puntuaje= numCoorectas*correcta + numIncorrectas*incorrecta + numEnBlanco*enBlanco
+    puntuaje= numCorrectas*correcta + numIncorrectas*incorrecta + numEnBlanco*enBlanco
     return puntuaje
