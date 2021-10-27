@@ -2,7 +2,7 @@ from random import randint
 
 numAleatorio1= randint(1, 15)
 
-a= input()
+a= int(input())
 while a!=numAleatorio1:
     if(a<numAleatorio1):
         print('El número que debe adivinar es mayor')
