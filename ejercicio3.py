@@ -3,4 +3,4 @@ def respuestas(numCorrectas, numIncorrectas, numEnBlanco):
     incorrecta=-1
     enBlanco=0
     puntuaje= numCorrectas*correcta + numIncorrectas*incorrecta + numEnBlanco*enBlanco
-    return puntuaje
+    print ('El puntuaje es: ', puntuaje)
